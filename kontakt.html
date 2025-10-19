@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Akademia Piłkarska Orion — Kontakt</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <span class="name">Akademia Piłkarska Orion</span>
+      <span class="tag">Trenuj. Rośnij. Wygrywaj.</span>
+    </div>
+    <nav class="nav" aria-label="Główne menu">
+      <a href="index.html">O nas</a>
+      <a href="oferta.html">Programy</a>
+      <a href="portfolio.html">Galeria</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </header>
+  <main class="content">
+    <h1>Kontakt i zapisy</h1>
+    <p>Masz pytania lub chcesz zapisać zawodnika? Wypełnij formularz — w tym przykładzie formularz nie wysyła danych.</p>
+    <section class="contact-grid">
+      <form class="form" action="#" method="post" onsubmit="return false;">
+        <label for="name">Imię i nazwisko rodzica/opiekuna</label>
+        <input id="name" name="name" type="text" placeholder="Jan Nowak" required>
+        <label for="player">Imię zawodnika</label>
+        <input id="player" name="player" type="text" placeholder="Marek Nowak" required>
+        <label for="age">Wiek</label>
+        <input id="age" name="age" type="number" placeholder="10" min="5" max="18" required>
+        <label for="program">Program</label>
+        <select id="program" name="program">
+          <option>Mini Orły (5–7)</option>
+          <option>Młodzicy (8–12)</option>
+          <option>Juniorzy (13–18)</option>
+          <option>Obozy</option>
+        </select>
+        <label for="message">Wiadomość</label>
+        <textarea id="message" name="message" rows="4" placeholder="Dodatkowe informacje..."></textarea>
+        <div class="actions">
+          <button type="submit" class="btn">Wyślij</button>
+        </div>
+      </form>
+      <aside class="card">
+        <h3>Dane kontaktowe</h3>
+        <p>Akademia Piłkarska Orion<br>ul. Sportowa 4<br>00-000 Miasto</p>
+        <p>Tel: +48 123 456 789<br>Email: biuro@orionacademy.pl</p>
+        <h4>Godziny</h4>
+        <p>Pon–Pt: 15:00–20:00 · Sob: 9:00–13:00</p>
+      </aside>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>© 2025 Akademia Piłkarska Orion · Autor: Szymon Czyzewski</p>
+  </footer>
+</body>
+</html>
